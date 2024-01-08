@@ -296,6 +296,7 @@ body {
     text-align: center;
 }
 
+
 .holiday {
     text-align: center;
     padding-bottom: 5px;
@@ -336,7 +337,7 @@ body {
     margin-top: 215px;
     background-image: url('resources/Rectangle\ 2.png');
     background-repeat: no-repeat;
-    background-position:  right bottom;
+    background-position: right bottom;
     flex-shrink: 0;
     border-radius: 16px 50px 16px 16px;
     background-size: auto;
@@ -402,6 +403,7 @@ body {
     margin-right: 150px;
     margin-left: 350px;
     margin-bottom: 100px;
+    text-align: center;
 }
 
 .Subscribe {
@@ -410,8 +412,12 @@ body {
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
-    padding-top: 270px;
-    padding-bottom: 8px;
+    padding-top: 30px;
+}
+
+.mail {
+    padding-left: 5px;
+    padding-top: 50px;
 }
 
 .sub-text {
@@ -423,4 +429,31 @@ body {
     padding-left: 212px;
     margin-right: 212px;
     padding-bottom: 8px;
+}
+
+.user {
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    width: 248px;
+    height: 38px;
+    flex-shrink: 0;
+    padding-left: 10px;
+    border: none;
+}
+
+.sub-button {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    width: 120px;
+    height: 44px;
+    color: #FFF;
+    text-align: center;
+    border: none;
+}
+
+.footer {
+    background: #070211;
+    width: 2600px;
+    height: 609px;
+    flex-shrink: 0;
 }
