@@ -83,6 +83,7 @@ body {
     margin-bottom: 28px;
 }
 
+
 .welcome {
     background-image: url(resources/Vectorrr.png);
     width: 1320px;
@@ -129,7 +130,7 @@ body {
     display: flex;
 }
 
-.join {
+.join{
     color: #ffffff;
     text-align: right;
     font-family: Inter;
@@ -138,6 +139,11 @@ body {
     margin-left: -1200px;
     border: none;
     background-color: #000000;
+
+}
+
+.join:hover{
+    background-color: #F00;
 
 }
 
@@ -188,6 +194,10 @@ body {
     padding-top: 16px;
     padding-bottom: 16px;
     margin-bottom: 100px;
+}
+
+.join-now:hover {
+    background-color: #000000;
 }
 
 .container {
@@ -258,6 +268,10 @@ body {
 
 }
 
+.coming-pic:hover {
+    background-color: black;
+}
+
 
 .coming-offer {
     padding-left: 150px;
@@ -288,6 +302,7 @@ body {
     padding-right: 100px;
 
 }
+
 
 .coming-content-right {
     padding-left: 150px;
@@ -383,6 +398,7 @@ body {
     margin-left: 350px;
 }
 
+
 .portfolio {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -397,6 +413,11 @@ body {
 .portfolio-pic {
     margin-left: 350px;
     margin-bottom: 24px;
+}
+
+.portfolio-pic-1:hover {
+    background-color: red;
+    border: 10px;
 }
 
 .newsletter {
@@ -489,11 +510,19 @@ body {
 
 }
 
+.contact:hover {
+    background-color: #F00;
+}
+
 .website {
     margin-left: 150px;
     color: #FFF;
     background-color: #070211;
     text-decoration: none;
+}
+
+.website:hover {
+    background-color: #F00;
 }
 
 .footer-2 {
@@ -515,4 +544,8 @@ body {
     background-color: #070211;
     text-decoration: none;
     font-size: 20px;
+}
+
+.un-button:hover {
+    background-color: #F00;
 }
