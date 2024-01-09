@@ -480,6 +480,10 @@ body {
     border: none;
 }
 
+.user:focus {
+    color: red;
+}
+
 .sub-button {
     border-radius: 0px 50px 50px 0px;
     background: #F00;
