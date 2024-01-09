@@ -57,6 +57,10 @@ body {
     margin-bottom: 8px;
 }
 
+.holiday-deals:hover {
+    color: #000000;
+}
+
 .holiday-deals-des {
     color: #F00;
     text-align: center;
@@ -66,6 +70,10 @@ body {
     line-height: normal;
     margin-top: 8px;
     margin-bottom: 2px;
+}
+
+.holiday-deals-des:hover {
+    color: #000000;
 }
 
 .ny-pic {
@@ -81,6 +89,10 @@ body {
     font-weight: 700;
     line-height: normal;
     margin-bottom: 28px;
+}
+
+.categories:hover {
+    color:#F00;
 }
 
 
@@ -352,6 +364,7 @@ body {
 }
 
 
+
 .box-pic {
     padding-right: 100px;
     margin-left: 200px;
@@ -375,7 +388,7 @@ body {
 
 }
 
-.gifts {
+.gifts-text {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
@@ -475,6 +488,10 @@ body {
     color: #FFF;
     text-align: center;
     border: none;
+}
+
+.sub-button:hover {
+    background-color: #000000;
 }
 
 .footer {
