@@ -371,7 +371,7 @@ body {
     margin-top: 215px;
     background-image: url('resources/Rectangle\ 2.png');
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: left bottom;
     border-radius: 16px 50px 16px 16px;
     background-size: auto;
 }
@@ -458,6 +458,7 @@ body {
     padding-left: 5px;
     padding-top: 50px;
 }
+
 
 .sub-text {
     color: rgba(7, 2, 17, 0.60);
